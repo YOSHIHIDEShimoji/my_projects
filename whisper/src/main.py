@@ -233,8 +233,9 @@ def transcribe_audio():
         # 元の音声ファイル名を取得
         base_name = Path(file_path).stem
         
-        # 保存ファイル名を生成
-        output_file = f"{base_name}_whisper_{selected_model}.txt"
+        # 保存ファイル名を生成（デバイス情報を追加）
+        device_name = "gpu" if device == "cuda" else "cpu"
+        output_file = f"{base_name}_whisper_{selected_model}_{device_name}.txt"
         output_path = output_dir / output_file
         
         # 結果を保存
