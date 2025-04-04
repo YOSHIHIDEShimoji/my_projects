@@ -1,2 +1,2 @@
-s = '03-1111-2222'
-print(s[3:7])
+phone = '03-1111-2222'
+print(phone.split('-'))
