@@ -1,4 +1,3 @@
-phone = '03-1111-2222'
-phone_list = phone.split('-')
-s = '-'.join(phone_list)
-print(s)
+numbers = [3, 1, 4, 2, 5]
+new_numbers = sorted(numbers)[:3]
+print(new_numbers)
