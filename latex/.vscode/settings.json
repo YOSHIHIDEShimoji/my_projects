@@ -1,6 +1,6 @@
 {
   "latex-workshop.latex.autoBuild.run": "onSave",
-  "latex-workshop.latex.outDir": "./out",
+  "latex-workshop.latex.outDir": "../out",
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.latex.clean.enabled": true,
   "latex-workshop.latex.clean.fileTypes": [
@@ -20,7 +20,7 @@
       "args": [
         "--interaction=nonstopmode",
         "--synctex=1",
-        "-output-directory=./out",
+        "-output-directory=../out",
         "%DOC%"
       ]
     }
