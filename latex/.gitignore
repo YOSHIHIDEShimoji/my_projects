@@ -1,8 +1,12 @@
-# LaTeX build output
+# LaTeX build output# Ignore LaTeX build output files and temporary files
 /out/
 *.aux
 *.log
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.pdf
+# *.pdf
+
+# Include git status# Track VS Code project settings (for consistent LaTeX Workshop behavior)
+!.vscode/
+!.vscode/settings.json
