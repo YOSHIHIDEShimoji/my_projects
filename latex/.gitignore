@@ -1,5 +1,4 @@
 # LaTeX build output# Ignore LaTeX build output files and temporary files
-/out/
 *.aux
 *.log
 *.fls
